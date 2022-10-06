@@ -2,3 +2,9 @@
 # @Time : 2022/10/5 14:30
 # @Author : jiapeng
 # @File : demo1ddt.py
+import unittest
+
+
+class ddtdemo(unittest.TestCase):
+    pass
+
