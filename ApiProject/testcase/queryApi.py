@@ -71,7 +71,7 @@ class ApiDemo(unittest.TestCase):
 
     @unittest.skip
     def test_readdata(self):
-        filename = 'C:\\Users\\Administrator\\PycharmProjects\\python-exercises\\jiapeng\\task1\\chengshi.log'
+        filename = 'C:\\Users\\Administrator\\PycharmProjects\\python-exercises\\jiapeng\\task1\\chengshi.Log'
         with open(filename, 'r', encoding='utf-8') as file:
             list1=file.read().split()
             # print(type(list1))
